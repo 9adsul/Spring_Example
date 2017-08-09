@@ -18,12 +18,12 @@ public class UserConntroller {
 	@Autowired
 	private UserService userService;
 
-	@RequestMapping(value = "register", method = RequestMethod.GET)
+	/*@RequestMapping(value = "register", method = RequestMethod.GET)
 	public @ResponseBody String registerUser() {
 		// String status=userService.registerUser(user);
 		return "home";
 
-	}
+	}*/
 
 	@RequestMapping(value = "allusers", method = RequestMethod.GET)
 	public List<UserModel> getAllUsers() {
